@@ -1,119 +1,102 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Lato|Raleway|Special+Elite');
 
-html {
-  height: 100%;
-  overflow: hidden;
+/* font-family: 'Special Elite', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body, html {
+  height:100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
 }
 
-body {
-  margin:0;
-  padding:0;
-	perspective: 1px;
-	transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-   font-size: 250%
-}
-
-p {
-  font-size: 140%;
-  line-height: 150%;
-  color: #333;
-}
-
-.slide {
+.pimg1, .pimg2, .pimg3{
   position: relative;
-  padding: 25vh 10%;
-  min-height: 100vh;
-  width: 100vw;
-  box-sizing: border-box;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-	transform-style: inherit;
+  opacity: 0.80;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-img {
-  position: relative;
-  top: 50%;
-  left: 30%;
-  width: 300px;
-  height: 220px;
-  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
-  padding: 10px;
-  border-radius: 1px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+
+.pimg1{
+  background-image: url('art0.jpg');
+  min-height: 100%;
+}
+.pimg2{
+  background-image: url('art3.jpg');
+  min-height: 600px;
+}
+.pimg3{
+  background-image: url('art2.jpg');
+  min-height: 600px;
 }
 
-img:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
-}
 
-.slide:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
-}
-
-.title {
-  width: 50%;
-  padding: 5%;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}
-
-.slide:nth-child(2n) .title {
-  margin-left: 0;
-  margin-right: auto;
-}
-
-.slide:nth-child(2n+1) .title {
-  margin-left: auto;
-  margin-right: 0;
-}
-
-.slide, .slide:before {
-  background: 50% 50% / cover;
-}
-
-.header {
+.section{
   text-align: center;
-  font-size: 175%;
-  color: #fff;
-  text-shadow: 0 2px 2px #000;
+  padding: 50px 80px;
+}
+/*
+my contact details
+*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
-#title {
-  background-image: url("bck1.jpg");
-  z-index:2;
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
 }
 
-#title h1 {
- transform: translateZ(.25px) scale(.75);
- transform-origin: 50% 100%;
-
+.proj {
+    max-width: 75%;
+    margin: auto;
+}
+.row {
+    margin: 8px -16px;
 }
 
-#slide1:before {
-  background-image: url("bck1.jpg");
-  transform: translateZ(-1px) scale(2);
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
 }
 
-#slide2 {
-  background-image: url("bck1.jpg");
-  z-index:2;
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 23.5%;
 }
 
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-#slide3 {
-  background-image: url("bck1.jpg");
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+
 }
