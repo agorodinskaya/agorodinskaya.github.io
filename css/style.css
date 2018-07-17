@@ -131,6 +131,20 @@ body, html {
 /* END */
 
 /* Projects section: */
+.btn{
+  background-color: #4197f4;
+  border: 2px solid #4197f4;
+  border-radius: 6px;
+  padding: 16px 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  color: white;
+  min-width: 120px;
+  min-height: 50px;
+}
+
 .proj {
     max-width: 90%;
     margin: auto;
@@ -161,10 +175,16 @@ body, html {
 }
 
 .content {
-    background-color: rgba(200, 200, 200, 0.8);
+    background-color: rgb(227, 233, 242, 0.8);
     padding: 10px;
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     height: 540px;
 }
+iframe {
+  margin-top: 30px;
+  margin-left: 550px;
+  float: middle;
+}
+
 /* END */
