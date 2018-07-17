@@ -138,11 +138,15 @@ body, html {
   padding: 16px 16px;
   text-align: center;
   display: inline-block;
-  font-size: 8px;
+  font-size: 10px;
   margin: 4px 2px;
   color: white;
   min-width: 120px;
   min-height: 50px;
+}
+
+.link{
+  color: white;
 }
 
 .proj {
