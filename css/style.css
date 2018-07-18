@@ -195,7 +195,7 @@ iframe {
 
 
 /* responsive */
-@media(max-width:568px) {
+@media(max-width:500px) {
   .pimg1, .pimg2, .pimg3 {
     background-attachment:scroll;
    }
