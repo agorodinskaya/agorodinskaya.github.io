@@ -183,12 +183,12 @@ body, html {
     padding: 10px;
     color: black;
     font-size: 12px;
-    height: 540px;
+    height: 90%;
 }
 iframe {
   margin-top: 30px;
-  margin-left: 650px;
-  float: middle;
+  margin-left: 50px;
+  float: top;
 }
 
 /* END */
@@ -229,4 +229,17 @@ iframe {
     width: 240px;
     height:200px;
    }
+}
+@media(max-width:720px) {
+   .content{
+     height: 25%;
+   }
+   .pr{
+     width: 50%;
+     /* height: 10%; */
+   }
+   .column{
+     width: 80%;
+   }
+
 }
