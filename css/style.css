@@ -192,3 +192,41 @@ iframe {
 }
 
 /* END */
+
+
+/* responsive */
+@media(max-width:568px) {
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment:scroll;
+   }
+   .bout, .section, .content{
+     font-size: 10px;
+   }
+   .bout{
+     width: 80%;
+     position: absolute;
+     top:10%;
+     left: 15%;
+     right: 40%;
+     bottom: 10%
+     text-align: center;
+   }
+   .btn{
+      display: inline-block;
+      min-width: 50px;
+      min-height: 15px;
+   }
+   .content{
+     height: 25%;
+   }
+   .column{
+     width: 100%;
+   }
+   iframe {
+    margin-left:70px;
+    margin-top: 50px;
+    float: top;
+    width: 240px;
+    height:200px;
+   }
+}
