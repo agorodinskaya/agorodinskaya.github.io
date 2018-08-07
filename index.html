@@ -77,7 +77,7 @@
             <p>A game, using Javascript, JQuery, HTML and CSS. Please follow the links to see the code and demo:
             <br>
             <a href="https://agorodinskaya.github.io/tic-tac-toe/TicTacToeShow.html" target="_blank">Demo</a><br>
-            <a href="https://agorodinskaya.github.io/tic-tac-toe/TicTacToeShow.html" target="_blank">Code</a></p>
+            <a href="https://agorodinskaya.github.io/tic-tac-toe" target="_blank">Code</a></p>
           </div>
         </div>
         <div class="column">
@@ -113,18 +113,20 @@
     <a href="mailto:agorodinskaya@gmail.com?Subject=Your%20contact" style="font-size:24px" class="fa fa-google"></a>
   </section>
   <script>
-    window.onscroll = function() {myFunction()};
+  window.onscroll = function() {
+  myFunction();
+};
 
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
 
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 </script>
 </body>
 </html>
