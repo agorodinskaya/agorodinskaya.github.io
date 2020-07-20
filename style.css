@@ -2,7 +2,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 :root {
-  --primary-color: #16161a;
+  cursor: pointer;rimary-color: #16161a;
   --color-light: #fffffe;
   /* --color-links: #2cb67d; */
   --color-lhover: #3da9fc;
@@ -69,6 +69,7 @@ a:active{
   padding: 0;
   list-style: none;
   justify-content:space-between;
+  font-weight: bold;
   /* grid-template-columns: repeat(5, 1fr); */
   /* box-shadow: var(--shadow); */
 }
