@@ -113,13 +113,12 @@ a:active{
   justify-content:space-between;
 
 }
-.portfolio {
+.box {
   flex-basis:30%;
-}
-.box{
   display: block;
   box-shadow: var(--shadow);
   margin:10px;
+  padding: 3px;
 }
 
 
@@ -128,6 +127,9 @@ a:active{
   box-shadow: var(--shadow);
 }
 
+.box li {
+  list-style: none;
+}
 
 
 #contact, footer {
