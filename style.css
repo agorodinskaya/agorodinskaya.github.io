@@ -19,7 +19,7 @@ html, body{
 }
 body{
   font-size: 16px;
-  line-height: 1.6;
+
   margin: 30px 50px;
 }
 .btn{
@@ -106,39 +106,34 @@ a:active{
   box-shadow: var(--shadow);
   padding: 30px;
 }
-/* #portfolio > div > img {
+
+.portfolio{
   display: flex;
   flex-wrap: wrap;
-  align-items: start;
-  flex-direction: column;
+  justify-content:space-between;
+
 }
-
-
-
-
-.portfolio img {
-  width: 30%;
-  box-shadow: var(--shadow);
-} */
-
 .portfolio {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  flex-basis:30%;
 }
+.box{
+  display: block;
+  box-shadow: var(--shadow);
+  margin:10px;
+}
+
 
 .portfolio img {
   width: 100%;
   box-shadow: var(--shadow);
 }
-.box{
-  box-shadow: var(--shadow)
-}
+
+
 
 #contact, footer {
-  margin-top: 2rem;
+  margin-top: 30px;
   text-align: center;
-  padding: 1rem;
+  padding: 30px;
 }
 
 @media (max-width: 700px) {
@@ -156,7 +151,7 @@ a:active{
     grid-template-columns: 1fr;
   }
   .navbar li a{
-    font-size: 6px;
+    front-size: 8px;
   }
 /*do button with all th enav hiddent inside*/
 
@@ -167,5 +162,12 @@ a:active{
       'showcase'
       'top-box-a'
       'top-box-b';
+  }
+  .navbar li a{
+    font-size: 8px;
+  }
+  .portfolio {
+    flex-basis: 100%;
+    font-size: 8px;
   }
 }
