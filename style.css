@@ -168,7 +168,7 @@ a:active{
   .navbar li a{
     font-size: 8px;
   }
-  .portfolio {
+  .box {
     flex-basis: 100%;
     font-size: 8px;
   }
