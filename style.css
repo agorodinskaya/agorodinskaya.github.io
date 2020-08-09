@@ -30,16 +30,17 @@ header {
 
 main {
   background: var(--color-main);
-  text-align: center
+  text-align: center;
+  line-height: 2.5rem;
 }
 
-h1{
+h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 4rem;
   line-height: 5rem;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--color-link);
 }
@@ -47,7 +48,7 @@ a:hover {
   color: var(--color-hover);
 }
 
-ul{
+ul {
   list-style: none;
 }
 
