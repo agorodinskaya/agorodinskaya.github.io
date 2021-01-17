@@ -3,20 +3,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
 :root {
-  --primary-color: #e20dd0;
-  --color-light: #fffffe;
-  --color-footer: #c83de4;
-  --color-main: #050102;
-  --color-hover: #b8c1ec;
+  --primary-color: #ff6e6c;
+  --color-light-text: #d4c6f2;
+  --color-dark-text: #67568c;
+  --color-footer: #7488fb;
+  --color-main: #f0eaeaf3;
+  --color-hover: #ffd803;
   /* --shadow: 0 1px 5px #90b4ce; */
-  --color-link: #ab45ef;
+  --color-link: #1c9191;
   /* --color-btnhover: #3da9fc; */
 }
 body {
   display: grid;
   height: 100vh;
   grid-template-rows: auto 1fr auto;
-  color: var(--color-light);
+  color: var(--color-dark-text);
   font-family: "Indie Flower", cursive;
   font-size: 1.8rem;
   line-height: 3rem;
@@ -53,6 +54,7 @@ ul {
 
 footer {
   background: var(--color-footer);
+  color: var(--color-light-text);
   padding: 1rem;
   text-align: center;
 }
