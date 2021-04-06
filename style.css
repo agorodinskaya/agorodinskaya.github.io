@@ -28,6 +28,10 @@ header {
   padding: 2rem;
 }
 
+header a h1 {
+  display: inline;
+}
+
 main {
   background: var(--color-main);
   text-align: center;
